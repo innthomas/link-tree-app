@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='mb-2 mx-4'>
     <div className='App flex flex-col content-center items-center min-h-screen w-screen'>
        <header className='flex flex-col content-center items-center m-2'>
          <img id='profile__img' className='App__innPhoto w-20 h-20 rounded-full m-2' src={innPhoto} alt="innPhoto" />

@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# HNG9 TASK 1 - BUILD BASIC WEBPAGE.
+
+This is a simple webpage that displays user's profile.
+
+![screenshot](./src/assets/hng9task.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
