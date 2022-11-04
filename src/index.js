@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/link-tree-app",
     element: <App/>,
     errorElement: <ErrorPage />,
   },
