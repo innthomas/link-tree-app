@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/link-tree-app/static/css/main.58762baa.css",
-    "main.js": "/link-tree-app/static/js/main.2946e8f1.js",
+    "main.css": "/link-tree-app/static/css/main.9b2aa8c8.css",
+    "main.js": "/link-tree-app/static/js/main.35b9fd77.js",
     "static/js/787.c44b2c8a.chunk.js": "/link-tree-app/static/js/787.c44b2c8a.chunk.js",
     "static/media/innocent-thomas.png": "/link-tree-app/static/media/innocent-thomas.0ac0228288ca5320716c.png",
     "static/media/I4G.png": "/link-tree-app/static/media/I4G.8cde01edc439e1ee599b.png",
     "static/media/slack.svg": "/link-tree-app/static/media/slack.74d64e9d59cbb09a4a70aa8efacc4996.svg",
     "static/media/github.svg": "/link-tree-app/static/media/github.81897cfc232fbea67b4e6972b9f748d9.svg",
     "index.html": "/link-tree-app/index.html",
-    "main.58762baa.css.map": "/link-tree-app/static/css/main.58762baa.css.map",
-    "main.2946e8f1.js.map": "/link-tree-app/static/js/main.2946e8f1.js.map",
+    "main.9b2aa8c8.css.map": "/link-tree-app/static/css/main.9b2aa8c8.css.map",
+    "main.35b9fd77.js.map": "/link-tree-app/static/js/main.35b9fd77.js.map",
     "787.c44b2c8a.chunk.js.map": "/link-tree-app/static/js/787.c44b2c8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58762baa.css",
-    "static/js/main.2946e8f1.js"
+    "static/css/main.9b2aa8c8.css",
+    "static/js/main.35b9fd77.js"
   ]
 }
