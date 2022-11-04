@@ -17,7 +17,7 @@ const router = createHashRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/contact",
+    path: "contact",
     element: <Contact />,
   },
 ]);
