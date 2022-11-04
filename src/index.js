@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
-  RouterProvider,
+  
+  RouterProvider, createHashRouter,
 } from "react-router-dom";
 import Contact from "./routes/contact";
 import ErrorPage from './error-page';
@@ -10,14 +10,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/link-tree-app",
+    path: "/",
     element: <App/>,
     errorElement: <ErrorPage />,
   },
   {
-    path: "contact",
+    path: "/contact",
     element: <Contact />,
   },
 ]);
@@ -28,7 +28,9 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    
+<RouterProvider router={router} />
+   
   </React.StrictMode>
 );
 
