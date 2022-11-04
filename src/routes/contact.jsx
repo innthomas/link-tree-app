@@ -14,11 +14,11 @@ const contact = () => {
      <div className='sm:flex mt-4'>
        <span>
      <label className='block' for="name">First Name:</label>
-      <input className='border-2 rounded-lg p-2 w-[95%]' type="text" id="name" name="user_name" placeholder='Enter your first name'/>
+      <input className='border-2 rounded-lg p-2 w-[95%]' type="text" id="first_name" name="first_name" placeholder='Enter your first name'/>
       </span>
       <span>
      <label className='block' for="name">Last Name:</label>
-      <input className='border-2 rounded-lg p-2' type="text" id="name" name="user_name" placeholder='Enter your last name'/>
+      <input className='border-2 rounded-lg p-2' type="text" id="last_name" name="last_name" placeholder='Enter your last name'/>
       </span>
      </div>
      <div>
@@ -39,7 +39,7 @@ const contact = () => {
   <span class="checkmark"></span>
         </label>
      </div>
-      <button className='bg-blue-400 text-white w-40 mx-2 md:mx-0 md:w-full font-bold rounded p-2 ' type="submit">Send message</button>
+      <button id='btn__submit' className='bg-blue-400 text-white w-40 mx-2 md:mx-0 md:w-full font-bold rounded p-2 ' type="submit">Send message</button>
     </Form>
       </div>
     </div>
