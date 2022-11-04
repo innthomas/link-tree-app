@@ -1,25 +1,19 @@
 import {innPhoto} from './assets';
 import github from './assets/github.svg';
 import slackIcon from './assets/slack.svg';
-//import iconShare from './assets/icon-share.png';
-//import elipsisIcon from './assets/menu.png';
-import zuri from './assets/zuri.png';
-import i4g from './assets/I4G.png';
+import Footer from './components/Footer';
+import {Link} from "react-router-dom";
 import './App.css';
 
 
 function App() {
   return (
+    
     <div className='mb-2 mx-4'>
     <div className='App flex flex-col content-center items-center min-h-screen w-screen'>
        <header className='flex flex-col content-center items-center m-2'>
          <img id='profile__img' className='App__innPhoto w-20 h-20 rounded-full m-2' src={innPhoto} alt="innPhoto" />
-         {/* <div className='tooltip'>
-         <img  className=' opacity-50 p-2 border-2 rounded-full cursor-pointer ' src={iconShare} alt="iconShare" />
-         <span class="tooltiptext ">Share link</span>
-
-         <img className=' hidden' src={elipsisIcon} alt="iconElipse" />
-         </div> */}
+         
          <h1 className='text-2xl font-bold m-2'>Innocent Thomas
          </h1>
        </header>
@@ -46,6 +40,10 @@ function App() {
        <div className='text-center h-14 pt-2 border-2 rounded-lg w-[80%] bg-gray-200 hover:bg-gray-400 my-4 cursor-pointer'>
          <a id='‘book__design’' href="https://books.zuri.team/design-rules">Design Books</a>
        </div>
+       {/* contact me */}
+       <div className='text-center h-14 pt-2 border-2 rounded-lg w-[80%] bg-gray-200 hover:bg-gray-400 my-4 cursor-pointer'>
+         <Link id='‘book__design’' to='contact'>Contact Me</Link>
+       </div>
        <div className='flex text-center justify-center mt-10'>
        
        <a id='slack' href="http://slack.com/innocentthomas">
@@ -55,13 +53,12 @@ function App() {
        </div>
        
     </div>
-    <footer className='sm:flex mt-20 justify-between '>
-            <img src={zuri} alt="zuri" />
-            <div className='opacity-50'>HNG Internship 9 Frontend Task</div>
-            <img className='w-40' src={i4g} alt="i4g" />
-       </footer>
+      <Footer/>
     </div>
+   
   );
 }
 
 export default App;
+
+
